@@ -17,7 +17,7 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/yourusername/repositoryname.git
 
 # Step 6: Push to the remote repository
-git push -u origin master
+git push -u origin master/main
 
 # Step 7: Check git log for commit history
 git log
@@ -26,7 +26,7 @@ git log
 git checkout -b new-branch-name
 
 # Step 9: Pull changes from remote
-git pull origin master   # Use the correct branch if not 'master'
+git pull origin master/main   # Use the correct branch if not 'master'
 
 # Step 10: Push to remote from a different branch
 git push -u origin new-branch-name
