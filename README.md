@@ -33,3 +33,29 @@ git push -u origin new-branch-name
 
 # Step 11: List branches
 git branch
+
+Ashish@LAPTOP-LES056GN MINGW64 ~/Python-Game-Arcade (main)
+$ git remote add upstream https://github.com/Sujay-85/Python-Game-Arcade.git
+
+Ashish@LAPTOP-LES056GN MINGW64 ~/Python-Game-Arcade (main)
+$ get fetch upstream
+bash: get: command not found
+
+Ashish@LAPTOP-LES056GN MINGW64 ~/Python-Game-Arcade (main)
+$ git fetch upstream
+From https://github.com/Sujay-85/Python-Game-Arcade
+ * [new branch]      main       -> upstream/main
+
+Ashish@LAPTOP-LES056GN MINGW64 ~/Python-Game-Arcade (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+Ashish@LAPTOP-LES056GN MINGW64 ~/Python-Game-Arcade (main)
+$ git merge upstream/main
+Already up to date.
+
+Ashish@LAPTOP-LES056GN MINGW64 ~/Python-Game-Arcade (main)
+$ git push origin main
+Everything up-to-date
+
